@@ -3,18 +3,20 @@
 <head>
     <title>Monica Wallace</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
 </head>
 <body>
 
-<!--add guest book - and info about early webpages in the 90s when I was growing up. Set up email thank you to auto send after someone signs guestbook-->
 
-<h1>Monica Wallace</h1>
 <nav role="navigation" aria-label="main menu">
+    <h1>Monica Wallace</h1>
     <ul>
-        <li href="#about" >About Me</li>
-        <li href="#work" >My Work</li>
-        <li href="#contact" >Work With Me</li>
+        <a href="#about"><li> About Me </li></a>
+        <a href="#work"><li> My Work </li></a>
+        <a href="#contact"><li> Work With Me </li></a>
     </ul>
 </nav>
 
@@ -22,10 +24,9 @@
 
 </header>
 
-<section class="about">
-    <div>
-        <img src="https://loremflickr.com/640/360" alt="placeholder images of cats">
-    </div>
+<section class="about" id="about">
+    <img src="assets\images\sticker.png" alt="Monica's Bitmoji"
+    width="150px" height="150"/>
     <div>
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere libero ducimus placeat, sequi optio qui! Quod tempore harum quasi consequatur ullam unde soluta, dicta aperiam expedita repudiandae, quisquam et?</p>
@@ -33,29 +34,29 @@
     </div>
 </section>
 
-<main class="work">
-    <h2>My Work</h2>
-    <article class="main project">
-        <img src="https://loremflickr.com/640/360" alt="placeholder images of cats">
+<h2>My Work</h2>
+<main class="work" id="work">
+    
+    <article class="main">
+        <img src="https://via.placeholder.com/350" alt="placeholder images">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae non sunt ut suscipit perferendis tenetur adipisci laborum quo nemo sint labore earum, temporibus fuga ratione error eum, dolores repudiandae quis.</p>
     </article>
-    <article class="secondary project">
-        <img src="https://loremflickr.com/640/360" alt="placeholder images of cats">
+    <article class="secondary">
+        <img src="https://via.placeholder.com/250" alt="placeholder images">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi et quaerat iusto sequi, optio adipisci commodi accusamus odit non consequatur, ex magnam voluptatibus? Quasi, error ut! Architecto voluptatibus autem neque?</p>
     </article>
-    <article class="tertiary project">
-        <img src="https://loremflickr.com/640/360" alt="placeholder images of cats">
-    </article>
-    <article class="tertiary projects">
-        <img src="https://loremflickr.com/640/360" alt="placeholder images of cats">
+    <article class="tertiary">
+        <img src="https://via.placeholder.com/150" alt="placeholder images">
+        <img src="https://via.placeholder.com/150" alt="placeholder images">
     </article>
 </main>
 
-<section class="contact">
+<section class="contact" id="contact">
     <h2>Work With Me</h2>
-    <form></form>
+    <a href="https://github.com/Monica-Claire"><img src="C:\Users\miecz\OneDrive\Desktop\portfolio\assets\images\GitHub-Mark-64px.png" alt="Git Hub Logo" height="64px" width="64px"/></a>
     <div>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="monicaclairewallace" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/monicaclairewallace?trk=profile-badge">Monica Wallace</a></div>
-              
     </div>
 </section>
 

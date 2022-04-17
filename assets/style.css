@@ -1,9 +1,106 @@
 
-/* background styles */
-body {
-    background-color: #F0ECE3;
+/* color pallet
+light beige #f0ece3
+light purple #e8e3f0
+dk purple #a29fa8
+light green #ecf0e3
+dk green #a5a89f */
+
+
+/* site wide */
+* {
+    margin: 0;
 }
 
-/* section styles */
+/* general styles */
+body {
+    background-color: #F0ECE3;
+    font-family: 'Poppins', sans-serif;
+}
 
+.about,
+.work,
+.contact {
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.about,
+.contact {
+    background-color: #e8e3f0;
+}
+
+h2 {
+    text-align: center;
+}
+/* navigation styles */
+
+nav {
+    background-color: #d9c9f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin: auto;
+    font-size: 40px;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+nav li {
+  display: inline-flex;
+  flex:  1 1 500px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* about me styles*/
+
+.about div {
+    margin: 20px;
+    padding: 20px;
+}
+
+.about img {
+    margin: auto;
+}
+
+/* my work styles */
+.work {
+   background-color: #ecf0e3;
+   justify-content: space-around;
+
+} 
+
+.work img {
+    justify-content: space-around;
+    margin: auto;
+}
+
+.work h2 {
+    justify-content: space-around;
+}
+
+.main,
+.secondary,
+.tertiary {
+    padding: 20px;
+    margin: 20px;
+}
+
+.tertiary img {
+    margin: 20px;
+}
+
+/* contact styles */
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
 /* footer styles */
